@@ -1,0 +1,1287 @@
+{
+  "info": {
+    "_postman_id": "1130808a-8d00-452d-a6ea-8fd3bd15cb1f",
+    "name": "My Collection",
+    "description": "### Welcome to Postman! This is your first collection. \n\nCollections are your starting point for building and testing APIs. You can use this one to:\n\n• Group related requests\n• Test your API in real-world scenarios\n• Document and share your requests\n\nUpdate the name and overview whenever you’re ready to make it yours.\n\n[Learn more about Postman Collections.](https://learning.postman.com/docs/collections/collections-overview/)",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "60010324",
+    "_collection_link": "https://go.postman.co/collection/60010324-1130808a-8d00-452d-a6ea-8fd3bd15cb1f?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Catalogo.Api",
+      "item": [
+        {
+          "name": "Categoria",
+          "item": [
+            {
+              "name": "Get Categoria",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "http://localhost:5172/api/Categoria",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "5172",
+                  "path": [
+                    "api",
+                    "Categoria"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Post Categoria",
+              "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n  \"nombre\": \"Electrónica\", \r\n  \"descripcion\": \"Dispositivos electrónicos y tecnología\"\r\n\r\n  \r\n}\r\n\r\n",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "http://localhost:5172/api/Categoria",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "5172",
+                  "path": [
+                    "api",
+                    "Categoria"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Get Categoria",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "http://localhost:5172/api/Categoria/1",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "5172",
+                  "path": [
+                    "api",
+                    "Categoria",
+                    "1"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Put Categoria",
+              "request": {
+                "method": "PUT",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n  \"idCategoria\": 1,\r\n  \"nombre\": \"Consolas y Videojuegos\",\r\n  \"descripcion\": \"Consolas de videojuegos, juegos y accesorios\"\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "http://localhost:5172/api/Categoria/1",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "5172",
+                  "path": [
+                    "api",
+                    "Categoria",
+                    "1"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Delete Categoria",
+              "request": {
+                "method": "DELETE",
+                "header": [],
+                "url": {
+                  "raw": "http://localhost:5172/api/Categoria/1",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "5172",
+                  "path": [
+                    "api",
+                    "Categoria",
+                    "1"
+                  ]
+                }
+              },
+              "response": []
+            }
+          ]
+        },
+        {
+          "name": "Marca",
+          "item": [
+            {
+              "name": "Get Marca",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "http://localhost:5172/api/Marca",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "5172",
+                  "path": [
+                    "api",
+                    "Marca"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Post Marca",
+              "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n  \"nombre\": \"Sony\",\r\n  \"paisOrigen\": \"Japón\"\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "http://localhost:5172/api/Marca",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "5172",
+                  "path": [
+                    "api",
+                    "Marca"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Get id Marca",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "http://localhost:5172/api/Marca/1",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "5172",
+                  "path": [
+                    "api",
+                    "Marca",
+                    "1"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Put Marca",
+              "request": {
+                "method": "PUT",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n  \"idMarca\": 1,\r\n  \"nombre\": \"Sony Corporation\",\r\n  \"paisOrigen\": \"Japón\"\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "http://localhost:5172/api/Marca/1",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "5172",
+                  "path": [
+                    "api",
+                    "Marca",
+                    "1"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Delete Marca",
+              "request": {
+                "method": "DELETE",
+                "header": [],
+                "url": {
+                  "raw": "http://localhost:5172/api/Marca/1",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "5172",
+                  "path": [
+                    "api",
+                    "Marca",
+                    "1"
+                  ]
+                }
+              },
+              "response": []
+            }
+          ]
+        },
+        {
+          "name": "Producto",
+          "item": [
+            {
+              "name": "Get Producto",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "http://localhost:5172/api/Producto",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "5172",
+                  "path": [
+                    "api",
+                    "Producto"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Post Producto",
+              "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n  \"idCategoria\": 1,\r\n  \"idMarca\": 1,\r\n  \"nombre\": \"PlayStation 5 Pro\",\r\n  \"sku\": \"PS5-PRO-1TB\",\r\n  \"precio\": 799.99,\r\n  \"estado\": true\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "http://localhost:5172/api/Producto",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "5172",
+                  "path": [
+                    "api",
+                    "Producto"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Get id Producto",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "http://localhost:5172/api/Producto/1",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "5172",
+                  "path": [
+                    "api",
+                    "Producto",
+                    "1"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Put Producto",
+              "request": {
+                "method": "PUT",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n  \"idProducto\": 1,\r\n  \"idCategoria\": 1,\r\n  \"idMarca\": 1,\r\n  \"nombre\": \"PlayStation 5 Pro 2TB\",\r\n  \"sku\": \"PS5-PRO-2TB\",\r\n  \"precio\": 849.99,\r\n  \"estado\": true\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "http://localhost:5172/api/Producto/1",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "5172",
+                  "path": [
+                    "api",
+                    "Producto",
+                    "1"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Delete Producto",
+              "request": {
+                "method": "DELETE",
+                "header": [],
+                "url": {
+                  "raw": "http://localhost:5172/api/Producto/1",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "5172",
+                  "path": [
+                    "api",
+                    "Producto",
+                    "1"
+                  ]
+                }
+              },
+              "response": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Inventario.Api",
+      "item": [
+        {
+          "name": "Bodega",
+          "item": [
+            {
+              "name": "Get Bodega",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "http://localhost:5272/api/Bodega",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "5272",
+                  "path": [
+                    "api",
+                    "Bodega"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Post Bodega",
+              "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n  \"nombre\": \"Bodega Central Guayaquil\",\r\n  \"ciudad\": \"Guayaquil\",\r\n  \"direccion\": \"Av. Juan Tanca Marengo Km 4.5\"\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "http://localhost:5272/api/Bodega",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "5272",
+                  "path": [
+                    "api",
+                    "Bodega"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Get id Bodega",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "http://localhost:5272/api/Bodega/1",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "5272",
+                  "path": [
+                    "api",
+                    "Bodega",
+                    "1"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Put Bodega",
+              "request": {
+                "method": "PUT",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n  \"idBodega\": 1,\r\n  \"nombre\": \"Bodega Principal Guayaquil\",\r\n  \"ciudad\": \"Guayaquil\",\r\n  \"direccion\": \"Av. Juan Tanca Marengo Km 5\"\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "http://localhost:5272/api/Bodega/1",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "5272",
+                  "path": [
+                    "api",
+                    "Bodega",
+                    "1"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Delete Bodega",
+              "request": {
+                "method": "DELETE",
+                "header": [],
+                "url": {
+                  "raw": "http://localhost:5272/api/Bodega/1",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "5272",
+                  "path": [
+                    "api",
+                    "Bodega",
+                    "1"
+                  ]
+                }
+              },
+              "response": []
+            }
+          ]
+        },
+        {
+          "name": "Existencia",
+          "item": [
+            {
+              "name": "Get Existencia",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "http://localhost:5272/api/Existencia",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "5272",
+                  "path": [
+                    "api",
+                    "Existencia"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Post Existencia",
+              "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n  \"idProducto\": 1,\r\n  \"idBodega\": 1,\r\n  \"stock\": 100\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "http://localhost:5272/api/Existencia",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "5272",
+                  "path": [
+                    "api",
+                    "Existencia"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Get id Existencia",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "http://localhost:5272/api/Existencia/1",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "5272",
+                  "path": [
+                    "api",
+                    "Existencia",
+                    "1"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Put Existencia",
+              "request": {
+                "method": "PUT",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n  \"idExistencia\": 1,\r\n  \"idProducto\": 1,\r\n  \"idBodega\": 1,\r\n  \"stock\": 120\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "http://localhost:5272/api/Existencia/1",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "5272",
+                  "path": [
+                    "api",
+                    "Existencia",
+                    "1"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Delete Existencia",
+              "request": {
+                "method": "DELETE",
+                "header": [],
+                "url": {
+                  "raw": "http://localhost:5272/api/Existencia/1",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "5272",
+                  "path": [
+                    "api",
+                    "Existencia",
+                    "1"
+                  ]
+                }
+              },
+              "response": []
+            }
+          ]
+        },
+        {
+          "name": "MovimientoInventario",
+          "item": [
+            {
+              "name": "Get MovimientoInventario",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "http://localhost:5272/api/MovimientoInventario",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "5272",
+                  "path": [
+                    "api",
+                    "MovimientoInventario"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Post MovimientoInventario",
+              "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n  \"idProducto\": 1,\r\n  \"idBodega\": 1,\r\n  \"tipo\": \"ENTRADA\",\r\n  \"cantidad\": 50,\r\n  \"fecha\": \"2026-11-09T22:00:00Z\"\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "http://localhost:5272/api/MovimientoInventario",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "5272",
+                  "path": [
+                    "api",
+                    "MovimientoInventario"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Get id MovimientoInventario",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "http://localhost:5272/api/MovimientoInventario/1",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "5272",
+                  "path": [
+                    "api",
+                    "MovimientoInventario",
+                    "1"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Put MovimientoInventario",
+              "request": {
+                "method": "PUT",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n  \"idMovimiento\": 1,\r\n  \"idProducto\": 1,\r\n  \"idBodega\": 1,\r\n  \"tipo\": \"ENTRADA_AJUSTADA\",\r\n  \"cantidad\": 55,\r\n  \"fecha\": \"2026-11-09T22:30:00Z\"\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "http://localhost:5272/api/MovimientoInventario/1",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "5272",
+                  "path": [
+                    "api",
+                    "MovimientoInventario",
+                    "1"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Delete MovimientoInventario",
+              "request": {
+                "method": "DELETE",
+                "header": [],
+                "url": {
+                  "raw": "http://localhost:5272/api/MovimientoInventario/1",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "5272",
+                  "path": [
+                    "api",
+                    "MovimientoInventario",
+                    "1"
+                  ]
+                }
+              },
+              "response": []
+            }
+          ]
+        },
+        {
+          "name": "ReservaStock",
+          "item": [
+            {
+              "name": "Get ReservaStock",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "http://localhost:5272/api/ReservaStock",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "5272",
+                  "path": [
+                    "api",
+                    "ReservaStock"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Post ReservaStock",
+              "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n  \"idProducto\": 1,\r\n  \"idBodega\": 1,\r\n  \"cantidad\": 5,\r\n  \"estado\": \"RESERVADO\"\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "http://localhost:5272/api/ReservaStock",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "5272",
+                  "path": [
+                    "api",
+                    "ReservaStock"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Get id ReservaStock",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "http://localhost:5272/api/ReservaStock/1",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "5272",
+                  "path": [
+                    "api",
+                    "ReservaStock",
+                    "1"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Put ReservaStock",
+              "request": {
+                "method": "PUT",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n  \"idReserva\": 1,\r\n  \"idProducto\": 1,\r\n  \"idBodega\": 1,\r\n  \"cantidad\": 5,\r\n  \"estado\": \"CONFIRMADO\"\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "http://localhost:5272/api/ReservaStock/1",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "5272",
+                  "path": [
+                    "api",
+                    "ReservaStock",
+                    "1"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Delete ReservaStock",
+              "request": {
+                "method": "DELETE",
+                "header": [],
+                "url": {
+                  "raw": "http://localhost:5272/api/ReservaStock/1",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "5272",
+                  "path": [
+                    "api",
+                    "ReservaStock",
+                    "1"
+                  ]
+                }
+              },
+              "response": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pedidos.Api",
+      "item": [
+        {
+          "name": "Cliente",
+          "item": [
+            {
+              "name": "Get Cliente",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "http://localhost:5147/api/Cliente",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "5147",
+                  "path": [
+                    "api",
+                    "Cliente"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Post Cliente",
+              "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n  \"nombres\": \"Jeremy Osorio\",\r\n  \"cedula\": \"0987654321\",\r\n  \"correo\": \"jeremy.osorio@example.com\"\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "http://localhost:5147/api/Cliente",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "5147",
+                  "path": [
+                    "api",
+                    "Cliente"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Get id Cliente",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "http://localhost:5147/api/Cliente/1",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "5147",
+                  "path": [
+                    "api",
+                    "Cliente",
+                    "1"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Put Cliente",
+              "request": {
+                "method": "PUT",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n  \"idCliente\": 1,\r\n  \"nombres\": \"Jeremy Osorio B.\",\r\n  \"cedula\": \"0987654321\",\r\n  \"correo\": \"jeremy.osorio.b@example.com\"\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "http://localhost:5147/api/Cliente/1",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "5147",
+                  "path": [
+                    "api",
+                    "Cliente",
+                    "1"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Delete Cliente",
+              "request": {
+                "method": "DELETE",
+                "header": [],
+                "url": {
+                  "raw": "http://localhost:5147/api/Cliente/1",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "5147",
+                  "path": [
+                    "api",
+                    "Cliente",
+                    "1"
+                  ]
+                }
+              },
+              "response": []
+            }
+          ]
+        },
+        {
+          "name": "Pedido",
+          "item": [
+            {
+              "name": "Get Pedido",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "http://localhost:5147/api/Pedido",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "5147",
+                  "path": [
+                    "api",
+                    "Pedido"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Post Pedido",
+              "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n  \"idCliente\": 1,\r\n  \"fecha\": \"2026-11-09T22:00:00Z\",\r\n  \"total\": 1599.98,\r\n  \"estado\": \"PENDIENTE\"\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "http://localhost:5147/api/Pedido",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "5147",
+                  "path": [
+                    "api",
+                    "Pedido"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Get id Pedido",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "http://localhost:5147/api/Pedido/1",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "5147",
+                  "path": [
+                    "api",
+                    "Pedido",
+                    "1"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Put Pedido",
+              "request": {
+                "method": "PUT",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n  \"idPedido\": 1,\r\n  \"idCliente\": 1,\r\n  \"fecha\": \"2026-11-09T22:00:00Z\",\r\n  \"total\": 1599.98,\r\n  \"estado\": \"PAGADO\"\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "http://localhost:5147/api/Pedido/1",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "5147",
+                  "path": [
+                    "api",
+                    "Pedido",
+                    "1"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Delete Pedido",
+              "request": {
+                "method": "DELETE",
+                "header": [],
+                "url": {
+                  "raw": "http://localhost:5147/api/Pedido/1",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "5147",
+                  "path": [
+                    "api",
+                    "Pedido",
+                    "1"
+                  ]
+                }
+              },
+              "response": []
+            }
+          ]
+        },
+        {
+          "name": "DetallePedido",
+          "item": [
+            {
+              "name": "Get DetallePedido",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "http://localhost:5147/api/DetallePedido",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "5147",
+                  "path": [
+                    "api",
+                    "DetallePedido"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Post DetallePedido",
+              "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n  \"idPedido\": 1,\r\n  \"idProducto\": 1,\r\n  \"cantidad\": 2,\r\n  \"precioUnitario\": 799.99\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "http://localhost:5147/api/DetallePedido",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "5147",
+                  "path": [
+                    "api",
+                    "DetallePedido"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Get id DetallePedido",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "http://localhost:5147/api/DetallePedido/1",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "5147",
+                  "path": [
+                    "api",
+                    "DetallePedido",
+                    "1"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Put DetallePedido",
+              "request": {
+                "method": "PUT",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n  \"idDetalle\": 1,\r\n  \"idPedido\": 1,\r\n  \"idProducto\": 1,\r\n  \"cantidad\": 3,\r\n  \"precioUnitario\": 799.99\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "http://localhost:5147/api/DetallePedido/1",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "5147",
+                  "path": [
+                    "api",
+                    "DetallePedido",
+                    "1"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Delete DetallePedido",
+              "request": {
+                "method": "DELETE",
+                "header": [],
+                "url": {
+                  "raw": "http://localhost:5147/api/DetallePedido/1",
+                  "protocol": "http",
+                  "host": [
+                    "localhost"
+                  ],
+                  "port": "5147",
+                  "path": [
+                    "api",
+                    "DetallePedido",
+                    "1"
+                  ]
+                }
+              },
+              "response": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
